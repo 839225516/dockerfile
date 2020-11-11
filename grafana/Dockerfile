@@ -45,3 +45,4 @@ RUN if [ ! -z "${GF_INSTALL_PLUGINS}" ]; then \
         grafana-cli --pluginsDir "$GF_PATHS_PLUGINS" plugins install ${plugin}; \
     done; \
 fi
+
